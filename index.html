@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-...your-sha-hash-here..." crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:wght@300&family=Roboto:ital,wght@0,100;1,100&display=swap');
+    
+  </style>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+
+  <h2 class="pyp" style="text-align: center; width: 100%;">PYP Configuration</h2>
+  <div class="main-container">
+
+    <div class="file-upload-container">
+      <input type="file" id="file-upload" onchange="handleFileUpload()" />
+      <label for="file-upload" class="custom-button">Customize File Upload</label>
+    </div>
+
+    <div class="search-container">
+      <div class="input-group">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" id="search-input" class="search-input" placeholder="        Search..." oninput="handleSearch()" />
+      </div>
+    </div>
+
+  <table id="data-table" class="table table-striped">
+    <thead>
+      <tr>
+        <th>Organization</th>
+        <th>Role</th>
+        <th>Edit All</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Your rows go here -->
+
+      <tr>
+        <!-- <td><input type="text" placeholder=" organization"></td>
+        <td><input type="text" placeholder=" role"></td> -->
+
+        <td>organization</td>
+        <td>role</td>
+        <td>
+          <span class="edit"><i style='font-size:24px' class='fas'>&#xf044;</i></span>
+        </td>
+        <td>
+          <span class="delete">    <i class="glyphicon glyphicon-trash"></i>
+          </span>
+        </td>
+      </tr>
+      <!-- Add more rows as needed -->
+      <!-- Repeat the structure for each row -->
+      <tr>
+        <!-- <td><input type="text" placeholder=" organization"></td>
+        <td><input type="text" placeholder=" role"></td> -->
+
+        <td>organization</td>
+        <td>role</td>
+        <td>
+          <span class="edit"><i style='font-size:24px' class='fas'>&#xf044;</i></span>
+        </td>
+        <td>
+          <span class="delete"><i class="glyphicon glyphicon-trash"></i>
+          </span>
+        </td>
+      </tr>
+
+      <tr>
+        <!-- <td><input type="text" placeholder=" organization"></td>
+        <td><input type="text" placeholder=" role"></td> -->
+
+        <td>organization</td>
+        <td>role</td>
+        <td>
+          <span class="edit"><i style='font-size:24px' class='fas'>&#xf044;</i></span>
+        </td>
+        <td>
+          <span class="delete">    <i class="glyphicon glyphicon-trash"></i>
+          </span>
+        </td>
+      </tr>
+
+      <tr>
+        <!-- <td><input type="text" placeholder=" organization"></td>
+        <td><input type="text" placeholder=" role"></td> -->
+
+        <td>organization</td>
+        <td>role</td>
+        <td>
+          <span class="edit"><i style='font-size:24px' class='fas'>&#xf044;</i></span>
+        </td>
+        <td>
+          <span class="delete">    <i class="glyphicon glyphicon-trash"></i>
+          </span>
+        </td>
+      </tr>
+
+      <tr>
+        <!-- <td><input type="text" placeholder=" organization"></td>
+        <td><input type="text" placeholder=" role"></td> -->
+
+        <td>organization</td>
+        <td>role</td>
+        <td>
+          <span class="edit"><i style='font-size:24px' class='fas'>&#xf044;</i></span>
+        </td>
+        <td>
+          <span class="delete">    <i class="glyphicon glyphicon-trash"></i>
+          </span>
+        </td>
+      </tr>
+
+      <tr>
+        <!-- <td><input type="text" placeholder=" organization"></td>
+        <td><input type="text" placeholder=" role"></td> -->
+
+        <td>organization</td>
+        <td>role</td>
+        <td>
+          <span class="edit"><i style='font-size:24px' class='fas'>&#xf044;</i></span>
+        </td>
+        <td>
+          <span class="delete">    <i class="glyphicon glyphicon-trash"></i>
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+  <nav aria-label="Page navigation example">
+    <ul id="pagination" class="pagination">
+      <li class="page-item"><a class="page-link icon" href="#" >&laquo;</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link icon" href="#">&raquo;</a></li>
+    </ul>
+  </nav>
+  <!-- <script src="script.js"></script> -->
+  
+</body>
+</html>
