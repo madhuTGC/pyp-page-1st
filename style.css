@@ -6,7 +6,7 @@ body {
   border: 5px solid #29BB9C;
   height: 100vh;
   font-family: Lato;
-  font-size: 16px;
+  font-size: 1.5rem;
   line-height: 28px;
   letter-spacing: 0em;
   text-align: center;
@@ -34,10 +34,9 @@ body {
   padding: 35px;
   text-align: left;
   border: 1px solid #ddd; 
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
-  /* background: linear-gradient(0deg, #F5F6FA, #F5F6FA),
-    linear-gradient(0deg, #EEEEEE, #EEEEEE); */
+
 
 }
 
@@ -57,9 +56,7 @@ body {
 .edit,
 .delete {
   cursor: pointer;
-  margin-left: 10px;
-  background: linear-gradient(0deg, #F5F6FA, #F5F6FA),
-    linear-gradient(0deg, #EEEEEE, #EEEEEE);
+  /* margin-left: 1rem; */
 
 }
 
@@ -70,7 +67,7 @@ body {
   color: #fff;
   font-size: 2rem;
   font-weight: 600;
-  padding: 3px;
+  padding: 0.7rem;
 }
 
 .file-upload-container,
@@ -90,8 +87,8 @@ body {
 
 .custom-button {
   height: 3vh;
-  width: 8vw;
-  /* padding: 2px; */
+  width: 18vh;
+  /* padding: 0.5rem; */
   margin-left: 1rem;
   background-color: #29BB9C;
   color: #fff;
@@ -150,20 +147,12 @@ body {
 
 }
 
-.main-page{
-  display: flex;
-  justify-content: end;
-  align-items: end;
-
-}
-
-
 .pagination {
   display: flex;
   justify-content: end;
   align-items: end;
-  /* margin-top: 30rem; */
-  margin-right: 2rem
+  margin-top: 10rem;
+  margin-right: 3rem
 }
 
 .page-item {
@@ -172,10 +161,15 @@ body {
   
 }
 
+.page-link-icon{
+  height: 5vh;
+  width: 3.5vw;
+
+}
 
 .page-link {
-  font-size: 2.5rem; 
-  height: 4.5vh;
+  font-size: 2rem; 
+  height: 5vh;
   width: 3.5vw;
   /* padding: 20px; */
 
