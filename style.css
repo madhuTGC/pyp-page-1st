@@ -1,4 +1,5 @@
 body {
+  overflow: hidden;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -90,16 +91,19 @@ body {
 .custom-button {
   height: 3vh;
   width: 8vw;
-  padding: 2px;
-  margin-left: 10px;
+  /* padding: 2px; */
+  margin-left: 1rem;
   background-color: #29BB9C;
   color: #fff;
   border: none;
   cursor: pointer;
 }
 
+
+
+
 .search-input {
-  padding: 10px;
+  padding: 1rem;
   margin-left: 10px;
   width: 25vw;
   height: 4vh;
@@ -146,20 +150,25 @@ body {
 
 }
 
+.main-page{
+  display: flex;
+  justify-content: end;
+  align-items: end;
 
+}
 
 
 .pagination {
   display: flex;
-  justify-content: flex-end;
-  margin-top: 30rem;
-  margin-right: 20px;
+  justify-content: end;
+  align-items: end;
+  /* margin-top: 30rem; */
+  margin-right: 2rem
 }
 
 .page-item {
   /* margin: 0 5px; */
   text-align: center;
-
   
 }
 
@@ -168,14 +177,14 @@ body {
   font-size: 2.5rem; 
   height: 4.5vh;
   width: 3.5vw;
-  padding: 20px;
+  /* padding: 20px; */
 
 }
 
-.page-link:hover {
+/* .page-link:hover {
   color: #2980b9;
 
-}
+} */
 
 .pagination li a {
   color: gray;
@@ -240,16 +249,16 @@ body {
   }
 
   .custom-button {
-    height: 2.5vh;
+    height: 3vh;
     width: 7vw;
     padding: 1px;
     margin-left: 5px;
   }
 
   .page-link {
-    font-size: 2rem;
-    height: 4vh;
-    width: 3vw;
+    font-size: 2vw;
+    height: 4.5vh;
+    width: 3.5vw;
     padding: 10px;
   }
 
